@@ -12,7 +12,7 @@ Run:
   python -m venv .venv
   .venv\Scripts\Activate.ps1
   pip install fastapi uvicorn pydantic
-  uvicorn main:app --host 127.0.0.1 --port 8088 --reload
+  uvicorn rng_microservice:app --host 127.0.0.1 --port 8088 --reload
 
 Notes:
 - Default engine uses Python’s `random.Random()` for simple uniform sampling.
