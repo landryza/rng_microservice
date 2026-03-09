@@ -4,8 +4,7 @@
 This service exposes one endpoint to generate stop indices for each reel. Deterministic runs are supported via an optional `seed` field.
 
 ## Files
-- `rng_service_min.py` — FastAPI microservice with `/reels/spin`.
-- `rng_client_min.py` — tiny client with local fallback.
+- `rng_microservice.py` — FastAPI microservice with `/reels/spin`.
 
 ## Run the service
 ```bash
